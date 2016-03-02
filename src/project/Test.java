@@ -23,7 +23,11 @@ public class Test {
                         .collect(Collectors.joining(" "));
     }
 
+
+
     public static void main(String[] args) {
+
+        DatabaseStuff.INSTANCE.updateStudent(new Student("John McCarthy", "3040501", ""));
 
 //        DatabaseStuff.INSTANCE.getALlStudents();
 

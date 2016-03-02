@@ -54,12 +54,9 @@ public class Controller extends HttpServlet {
                 request.setAttribute("state", state);
 
                 if (project.Helpers.getParameterCheck(request, "submit").equals("submit")) {
-                    allStudents.get(stdID).setSelected(project.Helpers.stringParameters(request, "selected"));
+                    allStudents.get(stdID).setSelected(Helpers.stringParameters(request, "selected"));
                     DatabaseStuff.INSTANCE.updateStudent(allStudents.get(stdID));
 
-                } else {
-
-//                    state.setFilteredStudents(allStudents.values()); // duplication of code
                 }
 
                 state.setSelctedStudents(allStudents.get(stdID).getSelected());

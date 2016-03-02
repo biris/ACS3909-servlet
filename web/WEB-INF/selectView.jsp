@@ -25,7 +25,7 @@
 
         <legend>Hello Student <strong><%= ((State) request.getAttribute("state")).getName()%></strong></legend>
         <%--<legend>Hello Student <jsp:getProperty name="bean" property="name"/></legend>--%>
-    <form action="Conroller" method="post"></form>
+    <form action="Controller" method="post">
         <%!
             String isChecked(State state, Student std) {
              return state.getSelctedStudents().contains(std.getStudentID()) ? "checked" : "";

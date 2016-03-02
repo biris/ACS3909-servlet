@@ -24,7 +24,7 @@
 
 <form action="Controller" method="post">
     <label for="studentID">Your ID: </label>
-    <input type="text" name="studentID" id="studentID">
+    <input type="text" name="studentID" id="studentID" value="3040500">
     <input type="submit" value="go!">
 </form>
 
