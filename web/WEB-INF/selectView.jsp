@@ -32,7 +32,7 @@
 
             }
         %>
-            <p> <%=((State)request.getAttribute("state")).getStudentID()%></p>
+            <p> Please select as you wish: </p>
         <%
 
         State state = (State) request.getAttribute("state");
