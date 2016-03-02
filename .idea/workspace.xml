@@ -7,26 +7,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="1f3f4db1-010a-4a29-bca8-e12b3f6e0bc8" name="Default" comment="fixed select feedback">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/web1_war_exploded/WEB-INF/classes/project/Process.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/web1/project/Process.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project/Process.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web1_war_exploded/WEB-INF/classes/project/Controller.class" afterPath="$PROJECT_DIR$/out/artifacts/web1_war_exploded/WEB-INF/classes/project/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web1_war_exploded/WEB-INF/classes/project/DatabaseStuff.class" afterPath="$PROJECT_DIR$/out/artifacts/web1_war_exploded/WEB-INF/classes/project/DatabaseStuff.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web1_war_exploded/WEB-INF/classes/project/Helpers.class" afterPath="$PROJECT_DIR$/out/artifacts/web1_war_exploded/WEB-INF/classes/project/Helpers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web1_war_exploded/WEB-INF/classes/project/State.class" afterPath="$PROJECT_DIR$/out/artifacts/web1_war_exploded/WEB-INF/classes/project/State.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web1_war_exploded/WEB-INF/classes/project/Test.class" afterPath="$PROJECT_DIR$/out/artifacts/web1_war_exploded/WEB-INF/classes/project/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/web1/project/Controller.class" afterPath="$PROJECT_DIR$/out/production/web1/project/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/web1/project/Helpers.class" afterPath="$PROJECT_DIR$/out/production/web1/project/Helpers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/web1/project/Test.class" afterPath="$PROJECT_DIR$/out/production/web1/project/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" readonly="true" id="1f3f4db1-010a-4a29-bca8-e12b3f6e0bc8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web1_war_exploded/WEB-INF/getIDView.jsp" afterPath="$PROJECT_DIR$/out/artifacts/web1_war_exploded/WEB-INF/getIDView.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web1_war_exploded/WEB-INF/selectView.jsp" afterPath="$PROJECT_DIR$/out/artifacts/web1_war_exploded/WEB-INF/selectView.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/Controller.java" afterPath="$PROJECT_DIR$/src/project/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/Test.java" afterPath="$PROJECT_DIR$/src/project/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/getIDView.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/getIDView.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/selectView.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/selectView.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="web1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,11 +35,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/Test.java">
+      <file leaf-file-name="getIDView.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/getIDView.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            <state relative-caret-position="182">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="3" column="114" selection-start-line="3" selection-start-column="114" selection-end-line="3" selection-end-column="114" />
               <folding />
             </state>
           </provider>
@@ -82,25 +75,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="selectView.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="selectView.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/selectView.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+            <state relative-caret-position="575">
+              <caret line="129" column="72" selection-start-line="129" selection-start-column="72" selection-end-line="129" selection-end-column="72" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseStuff.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/DatabaseStuff.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
-              <folding>
-                <marker date="1456886586000" expanded="true" signature="996:1018" placeholder="SELECT * fro... students" />
-                <marker date="1456886586000" expanded="true" signature="1695:1740" placeholder="UPDATE stude... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -131,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/coreservlets/NameBean.java" />
         <option value="$PROJECT_DIR$/src/coreservlets/RegistrationForm.java" />
         <option value="$PROJECT_DIR$/src/coreservlets/RegistrationServlet.java" />
         <option value="$PROJECT_DIR$/src/coreservlets/RepeatVisitor.java" />
@@ -182,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/project/Helpers.java" />
         <option value="$PROJECT_DIR$/src/project/Controller.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/selectView.jsp" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1333,12 +1313,19 @@
       <workItem from="1456714708765" duration="2188000" />
       <workItem from="1456717914121" duration="18579000" />
       <workItem from="1456858212214" duration="3016000" />
-      <workItem from="1456886006378" duration="2184000" />
+      <workItem from="1456886006378" duration="2523000" />
     </task>
+    <task id="LOCAL-00001" summary="fixed select feedback">
+      <created>1456888311263</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1456888311263</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223660000" />
+    <option name="totallyTimeSpent" value="223999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="79" y="24" width="1073" height="1017" extended-state="0" />
@@ -1398,7 +1385,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/coreservlets/HelloServlet2.java" />
     <entry file="file://$PROJECT_DIR$/src/coreservlets/OrderPage.java" />
     <entry file="file://$PROJECT_DIR$/src/coreservlets/CatalogItem.java" />
     <entry file="file://$PROJECT_DIR$/src/coreservlets/KidsBooksPage.java" />
@@ -1522,14 +1508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/getIDView.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/project/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -1586,8 +1564,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/selectView.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+        <state relative-caret-position="575">
+          <caret line="129" column="72" selection-start-line="129" selection-start-column="72" selection-end-line="129" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/getIDView.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="3" column="114" selection-start-line="3" selection-start-column="114" selection-end-line="3" selection-end-column="114" />
           <folding />
         </state>
       </provider>
