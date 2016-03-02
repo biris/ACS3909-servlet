@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web1_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$APPLICATION_HOME_DIR$/redist/annotations-java8.jar" />
+          <element id="library" level="application" name="mysql-connector-java-5.1.38-bin" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="web1/web/Web" />
+      <element id="artifact" artifact-name="unnamed" />
+    </root>
+  </artifact>
+</component>

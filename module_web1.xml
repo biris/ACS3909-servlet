@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_web1" default="compile.module.web1">
+  <dirname property="module.web1.basedir" file="${ant.file.module_web1}"/>
+  
+  <property name="module.jdk.home.web1" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.web1" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.web1" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.web1" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="web1.output.dir" value="${module.web1.basedir}/out/production/web1"/>
+  <property name="web1.testoutput.dir" value="${module.web1.basedir}/out/test/web1"/>
+  
+  <path id="web1.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="web1.module.production.classpath">
+    <path refid="${module.jdk.classpath.web1}"/>
+    <path refid="library.tomcat_8.0.30.classpath"/>
+    <pathelement location="${idea.home}/redist/annotations-java8.jar"/>
+    <pathelement location="${idea.home}/redist/annotations-java8.jar"/>
+  </path>
+  
+  <path id="web1.runtime.production.module.classpath">
+    <pathelement location="${web1.output.dir}"/>
+    <pathelement location="${idea.home}/redist/annotations-java8.jar"/>
+    <pathelement location="${idea.home}/redist/annotations-java8.jar"/>
+  </path>
+  
+  <path id="web1.module.classpath">
+    <path refid="${module.jdk.classpath.web1}"/>
+    <pathelement location="${web1.output.dir}"/>
+    <path refid="library.tomcat_8.0.30.classpath"/>
+    <pathelement location="${idea.home}/redist/annotations-java8.jar"/>
+    <pathelement location="${idea.home}/redist/annotations-java8.jar"/>
+  </path>
+  
+  <path id="web1.runtime.module.classpath">
+    <pathelement location="${web1.testoutput.dir}"/>
+    <pathelement location="${web1.output.dir}"/>
+    <path refid="library.tomcat_8.0.30.classpath"/>
+    <pathelement location="${idea.home}/redist/annotations-java8.jar"/>
+    <pathelement location="${idea.home}/redist/annotations-java8.jar"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.web1">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.web1">
+    <patternset refid="excluded.from.module.web1"/>
+  </patternset>
+  
+  <path id="web1.module.sourcepath">
+    <dirset dir="${module.web1.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.web1" depends="compile.module.web1.production,compile.module.web1.tests" description="Compile module web1"/>
+  
+  <target name="compile.module.web1.production" depends="register.custom.compilers" description="Compile module web1; production classes">
+    <mkdir dir="${web1.output.dir}"/>
+    <javac2 destdir="${web1.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.web1}/javac">
+      <compilerarg line="${compiler.args.web1}"/>
+      <bootclasspath refid="web1.module.bootclasspath"/>
+      <classpath refid="web1.module.production.classpath"/>
+      <src refid="web1.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.web1"/>
+    </javac2>
+    
+    <copy todir="${web1.output.dir}">
+      <fileset dir="${module.web1.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.web1.tests" depends="register.custom.compilers,compile.module.web1.production" description="compile module web1; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.web1" description="cleanup module">
+    <delete dir="${web1.output.dir}"/>
+    <delete dir="${web1.testoutput.dir}"/>
+  </target>
+</project>
